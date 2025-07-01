@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Divya Dharshini A - Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+  <style>
+    body {
+      scroll-behavior: smooth;
+      font-family: 'Segoe UI', sans-serif;
+    }
+    .bg-gradient-hero {
+      background: linear-gradient(to right, #74ebd5, #9face6);
+      color: #fff;
+    }
+    .section-title {
+      font-size: 2rem;
+      font-weight: 600;
+      margin-bottom: 1rem;
+      position: relative;
+    }
+    .section-title::after {
+      content: '';
+      width: 60px;
+      height: 3px;
+      background: #007bff;
+      position: absolute;
+      left: 0;
+      bottom: -10px;
+    }
+    
+    .info-icon {
+      color: #007bff;
+      margin-right: 8px;
+    }
+    section {
+      padding: 60px 0;
+    }
+    footer {
+      background: #222;
+      color: #ccc;
+    }
+    ul li {
+      margin-bottom: 10px;
+    }
+    .bg-lightblue {
+      background-color: #f0f8ff;
+    }
+    .list-style-circle {
+      list-style-type: circle;
+      padding-left: 1.5rem;
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow-sm">
+  <div class="container">
+    <a class="navbar-brand" href="#">Divya Dharshini A</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="#internship">Internships</a></li>
+        <li class="nav-item"><a class="nav-link" href="#certificates">Certificates</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<section class="bg-gradient-hero text-center py-5">
+  <div class="container">
+    
+    <h1 class="display-5 fw-bold">Divya Dharshini A</h1>
+    <p class="lead">Frontend Developer</p>
+  </div>
+</section>
+
+<section id="about">
+  <div class="container">
+    <h2 class="section-title">About Me</h2>
+    <p>
+      Creative and detail-oriented Frontend Developer with hands-on experience in building responsive,
+      accessible, and visually engaging web interfaces using HTML, CSS, JavaScript, and Bootstrap.
+      Skilled in translating modern UI/UX designs from Figma into clean, efficient code that aligns with
+      best practices. Strong understanding of web layout, cross-browser compatibility, and mobile-first
+      development. Passionate about delivering smooth user experiences and collaborating in agile
+      teams to bring design ideas to life.
+    </p>
+  </div>
+</section>
+
+<section id="education" class="bg-light">
+  <div class="container">
+    <h2 class="section-title">Education</h2>
+    <ul class="list-style-circle">
+      <li><strong>B.Tech Artificial Intelligence and Data Science</strong> | 2023-2027<br>KPR Institute of Engineering and Technology<br><i class="bi bi-mortarboard info-icon"></i> CGPA: 8.030</li>
+      <li><strong>HSC</strong> – Bharathi Matriculation Higher Secondary School | 2021-2023</li>
+    </ul>
+  </div>
+</section>
+
+<section id="skills">
+  <div class="container">
+    <h2 class="section-title">Skills</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <h5>Languages & Markup</h5>
+        <p>HTML5, CSS3, JavaScript (ES6+), TypeScript</p>
+        <h5>Responsive Design</h5>
+        <p>Media Queries, Flexbox, CSS Grid, Mobile-First Design</p>
+      </div>
+      <div class="col-md-6">
+        <h5>Frameworks & Libraries</h5>
+        <p>React.js, Redux, Tailwind CSS, Bootstrap</p>
+        <h5>Tools & Platforms</h5>
+        <p>Git, GitHub, VS Code, npm, Webpack, Figma, Chrome DevTools</p>
+        <h5>Other</h5>
+        <p>REST APIs, JSON, AJAX, SEO Basics, Cross-Browser Compatibility</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="projects" class="bg-light">
+  <div class="container">
+    <h2 class="section-title">Projects</h2>
+    <ul class="list-style-circle">
+      <li>
+        <strong>Smart Hostel Management System</strong><br>
+        Developed a web platform to manage student details, room allocation, complaints, and fee tracking.<br>
+        <i class="bi bi-code-slash info-icon"></i> HTML, CSS, JavaScript, Bootstrap, MySQL, PHP
+      </li>
+      <li>
+        <strong>Waste Donation & Collection Platform</strong><br>
+        Built a system for donating unused electronics with real-time pickup tracking.<br>
+        <i class="bi bi-code info-icon"></i> HTML, CSS, JavaScript, Bootstrap, LocalStorage
+      </li>
+    </ul>
+  </div>
+</section>
+
+<section id="internship">
+  <div class="container">
+    <h2 class="section-title">Internships</h2>
+    <p><strong>Company:</strong> Spotknack<br>
+    <strong>Role:</strong> Intern<br>
+    <strong>Duration:</strong> 08.01.2025 – 22.01.2025</p>
+    <ul class="list-style-circle">
+      <li>Developed front-end using HTML, CSS, and JavaScript</li>
+      <li>Used GitHub for version control & project collaboration</li>
+      <li>Built responsive web pages with interactive features</li>
+      <li>Gained knowledge of the full development cycle</li>
+    </ul>
+  </div>
+</section>
+
+<section id="certificates" class="bg-light">
+  <div class="container">
+    <h2 class="section-title">Certificates</h2>
+    <ul class="list-style-circle">
+      <li>Responsive Web Design Certification – freeCodeCamp</li>
+      <li>JavaScript Algorithms and Data Structures – freeCodeCamp</li>
+      <li>Meta Front-End Developer Professional Certificate – Coursera</li>
+    </ul>
+  </div>
+</section>
+
+<footer class="text-center py-4">
+  <div class="container">
+    <p> For contact 9025758572 • divyaannadurai55@gamil.com</p>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
